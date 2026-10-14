@@ -1,0 +1,97 @@
+﻿Reference,Value,MPN,Footprint,Description,Datasheet
+J1,BAT A / 2S-6S,1727010,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal,"Phoenix MKDS 1/2-3.81; 3.81mm pitch, 10A; pin1 positive, pin2 GND",
+F1,5A / 125V,0451005.MRL,Fuse:Fuse_Littelfuse-NANO2-451_453,Fast 5A single-use fuse,
+Q1,DMP6023LE / 60V,DMP6023LE-13,Package_TO_SOT_SMD:SOT-223-3_TabPin2,"Reverse polarity: drain upstream, source downstream",https://www.diodes.com/datasheet/download/DMP6023LE.pdf
+D1,12V / BZT52H-C12,BZT52H-C12,Diode_SMD:D_SOD-123F,VGS clamp: cathode at source,
+R1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,,
+D2,SMBJ26CA / 600W,SMBJ26CA,Diode_SMD:D_SMB,"26V stand-off, max clamp 42.1V",https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-smbj-datasheet?assetguid=bdf1f8ca-9e92-4fb9-91ea-807bbfae9ba4
+FB1,60R@100MHz / 6A,742792410,Inductor_SMD:L_1806_4516Metric,High-current 1806 bead; DCR 10mR; verify impedance under DC bias,
+C1,22uF / 50V,EEE-FK1H220P,Capacitor_SMD:CP_Elec_6.3x7.7,Damped input bulk before bead,
+C2,4.7uF / 50V X7R,GRM32ER71H475KA88L,Capacitor_SMD:C_1210_3225Metric,Local high-voltage ceramic input,
+C3,4.7uF / 50V X7R,GRM32ER71H475KA88L,Capacitor_SMD:C_1210_3225Metric,Local high-voltage ceramic input,
+C4,2.2uF / 50V X7R,GRM21BR71H225KA12L,Capacitor_SMD:C_0805_2012Metric,Local input bypass directly beside VIN; retain 50V rating,
+U1,TPS54561DPRR,TPS54561DPRR,Package_SON:WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm,60V 5A buck; exposed pad to GND,https://www.ti.com/lit/ds/symlink/tps54561.pdf
+C5,100nF / 16V,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,Bootstrap capacitor directly at IC,
+D3,STPS5L60U / 5A 60V,STPS5L60U,Diode_SMD:D_SMB,"Catch diode, cathode at SW",https://www.st.com/resource/en/datasheet/stps5l60.pdf
+L1,10uH / XAL8080,XAL8080-103MED,Inductor_SMD:L_Coilcraft_XAL8080-XXX,"Shielded, Isat >=8.8A, Irms >=6A",https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal8080/
+C6,47uF / 16V X5R,GRM32ER61C476KE15L,Capacitor_SMD:C_1210_3225Metric,Require effective >=30uF at 5.2V per capacitor,
+C7,47uF / 16V X5R,GRM32ER61C476KE15L,Capacitor_SMD:C_1210_3225Metric,Require effective >=30uF at 5.2V per capacitor,
+R2,100k,,Resistor_SMD:R_0603_1608Metric,,
+R3,22k,,Resistor_SMD:R_0603_1608Metric,,
+R4,249k,,Resistor_SMD:R_0603_1608Metric,,
+R5,55.0k 0.1%,,Resistor_SMD:R_0603_1608Metric,,
+R6,10.0k 0.1%,,Resistor_SMD:R_0603_1608Metric,,
+R7,10.0k,,Resistor_SMD:R_0603_1608Metric,,
+C8,10nF / 25V,GRM188R71E103KA01D,Capacitor_SMD:C_0603_1608Metric,Independent soft-start,
+C9,22nF / 25V,GRM188R71E223KA01D,Capacitor_SMD:C_0603_1608Metric,Conservative Type II zero ~723Hz; bench validate,
+C10,220pF / 50V C0G,GRM1885C1H221JA01D,Capacitor_SMD:C_0603_1608Metric,,
+Q2,DMP6023LE / 60V,DMP6023LE-13,Package_TO_SOT_SMD:SOT-223-3_TabPin2,"Ideal diode: drain at channel, source at BUS",https://www.diodes.com/datasheet/download/DMP6023LE.pdf
+U2,LTC4412ES6#TRPBF,LTC4412ES6#TRPBF,Package_TO_SOT_SMD:TSOT-23-6,CTL grounded; STAT intentionally unused,https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
+C11,100nF / 16V,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,,
+R8,10k,,Resistor_SMD:R_0603_1608Metric,,
+R9,100k,,Resistor_SMD:R_0603_1608Metric,,
+Q3,2N7002,2N7002-7-F,Package_TO_SOT_SMD:SOT-23,N-MOS LED buffer,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+R10,2.2k,,Resistor_SMD:R_0603_1608Metric,,
+D4,GREEN / PATH A OK,LTST-C190KGKT,LED_SMD:LED_0603_1608Metric,,
+TP1,BAT_A,,TestPoint:TestPoint_Pad_D1.0mm,,
+TP3,5.20V_A,,TestPoint:TestPoint_Pad_D1.0mm,,
+J2,BAT B / 2S-6S,1727010,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal,"Phoenix MKDS 1/2-3.81; 3.81mm pitch, 10A; pin1 positive, pin2 GND",
+F101,5A / 125V,0451005.MRL,Fuse:Fuse_Littelfuse-NANO2-451_453,Fast 5A single-use fuse,
+Q101,DMP6023LE / 60V,DMP6023LE-13,Package_TO_SOT_SMD:SOT-223-3_TabPin2,"Reverse polarity: drain upstream, source downstream",https://www.diodes.com/datasheet/download/DMP6023LE.pdf
+D101,12V / BZT52H-C12,BZT52H-C12,Diode_SMD:D_SOD-123F,VGS clamp: cathode at source,
+R101,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,,
+D102,SMBJ26CA / 600W,SMBJ26CA,Diode_SMD:D_SMB,"26V stand-off, max clamp 42.1V",https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-smbj-datasheet?assetguid=bdf1f8ca-9e92-4fb9-91ea-807bbfae9ba4
+FB101,60R@100MHz / 6A,742792410,Inductor_SMD:L_1806_4516Metric,High-current 1806 bead; DCR 10mR; verify impedance under DC bias,
+C101,22uF / 50V,EEE-FK1H220P,Capacitor_SMD:CP_Elec_6.3x7.7,Damped input bulk before bead,
+C102,4.7uF / 50V X7R,GRM32ER71H475KA88L,Capacitor_SMD:C_1210_3225Metric,Local high-voltage ceramic input,
+C103,4.7uF / 50V X7R,GRM32ER71H475KA88L,Capacitor_SMD:C_1210_3225Metric,Local high-voltage ceramic input,
+C104,2.2uF / 50V X7R,GRM21BR71H225KA12L,Capacitor_SMD:C_0805_2012Metric,Local input bypass directly beside VIN; retain 50V rating,
+U101,TPS54561DPRR,TPS54561DPRR,Package_SON:WSON-10-1EP_4x4mm_P0.8mm_EP2.6x3mm,60V 5A buck; exposed pad to GND,https://www.ti.com/lit/ds/symlink/tps54561.pdf
+C105,100nF / 16V,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,Bootstrap capacitor directly at IC,
+D103,STPS5L60U / 5A 60V,STPS5L60U,Diode_SMD:D_SMB,"Catch diode, cathode at SW",https://www.st.com/resource/en/datasheet/stps5l60.pdf
+L101,10uH / XAL8080,XAL8080-103MED,Inductor_SMD:L_Coilcraft_XAL8080-XXX,"Shielded, Isat >=8.8A, Irms >=6A",https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal8080/
+C106,47uF / 16V X5R,GRM32ER61C476KE15L,Capacitor_SMD:C_1210_3225Metric,Require effective >=30uF at 5.2V per capacitor,
+C107,47uF / 16V X5R,GRM32ER61C476KE15L,Capacitor_SMD:C_1210_3225Metric,Require effective >=30uF at 5.2V per capacitor,
+R102,100k,,Resistor_SMD:R_0603_1608Metric,,
+R103,22k,,Resistor_SMD:R_0603_1608Metric,,
+R104,249k,,Resistor_SMD:R_0603_1608Metric,,
+R105,54.4k 0.1%,,Resistor_SMD:R_0603_1608Metric,,
+R106,10.0k 0.1%,,Resistor_SMD:R_0603_1608Metric,,
+R107,10.0k,,Resistor_SMD:R_0603_1608Metric,,
+C108,10nF / 25V,GRM188R71E103KA01D,Capacitor_SMD:C_0603_1608Metric,Independent soft-start,
+C109,22nF / 25V,GRM188R71E223KA01D,Capacitor_SMD:C_0603_1608Metric,Conservative Type II zero ~723Hz; bench validate,
+C110,220pF / 50V C0G,GRM1885C1H221JA01D,Capacitor_SMD:C_0603_1608Metric,,
+Q102,DMP6023LE / 60V,DMP6023LE-13,Package_TO_SOT_SMD:SOT-223-3_TabPin2,"Ideal diode: drain at channel, source at BUS",https://www.diodes.com/datasheet/download/DMP6023LE.pdf
+U102,LTC4412ES6#TRPBF,LTC4412ES6#TRPBF,Package_TO_SOT_SMD:TSOT-23-6,CTL grounded; STAT intentionally unused,https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
+C111,100nF / 16V,GRM188R71C104KA01D,Capacitor_SMD:C_0603_1608Metric,,
+R108,10k,,Resistor_SMD:R_0603_1608Metric,,
+R109,100k,,Resistor_SMD:R_0603_1608Metric,,
+Q103,2N7002,2N7002-7-F,Package_TO_SOT_SMD:SOT-23,N-MOS LED buffer,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+R110,2.2k,,Resistor_SMD:R_0603_1608Metric,,
+D104,GREEN / PATH B OK,LTST-C190KGKT,LED_SMD:LED_0603_1608Metric,,
+TP2,BAT_B,,TestPoint:TestPoint_Pad_D1.0mm,,
+TP4,5.15V_B,,TestPoint:TestPoint_Pad_D1.0mm,,
+J3,AVIONICS 5V / 3A,1727010,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal,"Phoenix MKDS 1/2-3.81; 3.81mm pitch, 10A; pin1 positive, pin2 GND",
+C201,220uF / 10V polymer,10SVPF220M,Capacitor_SMD:CP_Elec_8x6.7,Low ESR 220uF bulk; ripple rating >=3A,
+C202,22uF / 16V X5R,GRM31CR61C226KE15L,Capacitor_SMD:C_1206_3216Metric,,
+C203,22uF / 16V X5R,GRM31CR61C226KE15L,Capacitor_SMD:C_1206_3216Metric,,
+U201,TPS3808G01DBVR,TPS3808G01DBVR,Package_TO_SOT_SMD:SOT-23-6,"Adjustable output supervisor, threshold 4.93V",http://www.ti.com/lit/ds/symlink/tps3808.pdf
+R201,112k 0.1%,,Resistor_SMD:R_0603_1608Metric,,
+R202,10.0k 0.1%,,Resistor_SMD:R_0603_1608Metric,,
+R203,10k,,Resistor_SMD:R_0603_1608Metric,,
+R204,100k,,Resistor_SMD:R_0603_1608Metric,,
+R205,2.2k,,Resistor_SMD:R_0603_1608Metric,,
+C204,100nF / 16V,,Capacitor_SMD:C_0603_1608Metric,,
+C205,1nF / 50V,,Capacitor_SMD:C_0603_1608Metric,,
+C206,1nF / 50V,,Capacitor_SMD:C_0603_1608Metric,,
+Q201,2N7002,2N7002-7-F,Package_TO_SOT_SMD:SOT-23,,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+D201,GREEN / OUTPUT OK,LTST-C190KGKT,LED_SMD:LED_0603_1608Metric,,
+TP5,5V_BUS,,TestPoint:TestPoint_Pad_D1.0mm,,
+TP6,GND,,TestPoint:TestPoint_Pad_D1.0mm,,
+TP7,PG_A,,TestPoint:TestPoint_Pad_D1.0mm,,
+TP8,PG_B,,TestPoint:TestPoint_Pad_D1.0mm,,
+TP9,PG_BUS,,TestPoint:TestPoint_Pad_D1.0mm,,
+H1,M2 / NPTH,,MountingHole:MountingHole_2.2mm_M2,,
+H2,M2 / NPTH,,MountingHole:MountingHole_2.2mm_M2,,
+H3,M2 / NPTH,,MountingHole:MountingHole_2.2mm_M2,,
+H4,M2 / NPTH,,MountingHole:MountingHole_2.2mm_M2,,
