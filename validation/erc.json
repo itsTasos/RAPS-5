@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-13T23:36:35",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/723d1525-36c4-5d78-b5ed-a6057f0bafd2",
+            "violations": []
+        },
+        {
+            "path": "/PATH A/",
+            "uuid_path": "/723d1525-36c4-5d78-b5ed-a6057f0bafd2/aba9a062-0ede-54e4-83de-d39da97d6a1f",
+            "violations": []
+        },
+        {
+            "path": "/PATH B/",
+            "uuid_path": "/723d1525-36c4-5d78-b5ed-a6057f0bafd2/70fc3e01-efd7-5c36-b75a-9aa028cd70f0",
+            "violations": []
+        },
+        {
+            "path": "/OUTPUT / SUPERVISION/",
+            "uuid_path": "/723d1525-36c4-5d78-b5ed-a6057f0bafd2/9a1d0612-095f-5712-8b36-1e840bafb9ca",
+            "violations": []
+        }
+    ],
+    "source": "RAPS-5_V1.kicad_sch"
+}

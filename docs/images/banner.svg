@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="340" viewBox="0 0 1400 340" role="img" aria-label="RAPS-5 V1. Two inputs. One power bus. Experimental redundant power supervisor.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07151c"/><stop offset="1" stop-color="#123a3c"/></linearGradient></defs>
+<rect width="1400" height="340" rx="22" fill="url(#bg)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="64" y="65" fill="#acc6cf" font-size="17" letter-spacing="5">REDUNDANT AVIONICS POWER SUPERVISOR</text>
+<text x="60" y="159" fill="#f4f8fb" font-size="82" font-weight="700" letter-spacing="-3">RAPS-5 <tspan fill="#6ef3ba">V1</tspan></text>
+<text x="64" y="211" fill="#d0e0e7" font-size="28">Two inputs. One power bus.</text>
+<text x="64" y="288" fill="#acc6cf" font-size="19" letter-spacing="2">50 × 40 mm  /  FOUR LAYERS  /  KICAD 10</text>
+<path d="M850 110H1010Q1050 110 1050 150V170H1210" fill="none" stroke="#6ef3ba" stroke-width="6"/>
+<path d="M850 230H1010Q1050 230 1050 190V170" fill="none" stroke="#7acbff" stroke-width="6"/>
+<circle cx="850" cy="110" r="11" fill="#6ef3ba"/><circle cx="850" cy="230" r="11" fill="#7acbff"/><circle cx="1210" cy="170" r="13" fill="#f4f8fb"/>
+<text x="841" y="77" fill="#6ef3ba" font-size="22">A</text><text x="841" y="279" fill="#7acbff" font-size="22">B</text>
+<text x="1168" y="218" fill="#d0e0e7" font-size="20">BUS</text>
+</g></svg>
