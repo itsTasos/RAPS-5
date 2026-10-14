@@ -1,0 +1,243 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "723d1525-36c4-5d78-b5ed-a6057f0bafd2")
+	(paper "A4")
+	(title_block
+		(title "RAPS-5 V1 - Redundant Avionics Power Supervisor")
+		(date "2026-10-01")
+		(rev "V1")
+		(comment 1 "Experimental UAV / robotics module")
+	)
+	(lib_symbols)
+	(text "Experimental UAV / robotics hardware. Bench qualification required before operational use."
+		(exclude_from_sim no)
+		(at 35.56 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b68b2e8-e554-5997-bd2b-8e92cb96231d")
+	)
+	(text "RAPS-5 V1"
+		(exclude_from_sim no)
+		(at 35.56 25.4 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "20858d6b-00ba-596d-bd93-2e39f5cd2528")
+	)
+	(text "2S-6S LiPo B -> 5.152V -> LTC4412 + PMOS"
+		(exclude_from_sim no)
+		(at 35.56 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26b75277-e4da-512b-8a2f-74a1cf8fa329")
+	)
+	(text "Redundant Avionics Power Supervisor"
+		(exclude_from_sim no)
+		(at 35.56 33.02 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "2e57b0b6-0d5e-5edc-b843-ae640d8475ff")
+	)
+	(text "5V_BUS: nominal ~5.2V / 3A"
+		(exclude_from_sim no)
+		(at 177.8 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b51321c-d48e-5db9-be3b-904f82086670")
+	)
+	(text "A/B positive rails join only after the ideal-diode MOSFETs. Shared solid ground plane."
+		(exclude_from_sim no)
+		(at 35.56 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dc4ae38-07c6-5337-a886-20d7319d97a9")
+	)
+	(text "A favored nominally. 50mV offset does not guarantee priority across regulator tolerances."
+		(exclude_from_sim no)
+		(at 35.56 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8560b867-2aff-5e27-9c6a-19abd44f0561")
+	)
+	(text "2S-6S LiPo A -> 5.200V -> LTC4412 + PMOS"
+		(exclude_from_sim no)
+		(at 35.56 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92a071aa-8919-5356-b5cc-204531bd1500")
+	)
+	(sheet
+		(at 35.56 109.22)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "70fc3e01-efd7-5c36-b75a-9aa028cd70f0")
+		(property "Sheetname" "PATH B"
+			(at 35.56 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Path_B.kicad_sch"
+			(at 35.56 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RAPS-5_V1"
+				(path "/723d1525-36c4-5d78-b5ed-a6057f0bafd2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 81.28)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9a1d0612-095f-5712-8b36-1e840bafb9ca")
+		(property "Sheetname" "OUTPUT / SUPERVISION"
+			(at 177.8 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Path_O.kicad_sch"
+			(at 177.8 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RAPS-5_V1"
+				(path "/723d1525-36c4-5d78-b5ed-a6057f0bafd2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 55.88)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aba9a062-0ede-54e4-83de-d39da97d6a1f")
+		(property "Sheetname" "PATH A"
+			(at 35.56 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Path_A.kicad_sch"
+			(at 35.56 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RAPS-5_V1"
+				(path "/723d1525-36c4-5d78-b5ed-a6057f0bafd2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
